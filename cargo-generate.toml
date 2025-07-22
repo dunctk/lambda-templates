@@ -1,0 +1,12 @@
+[template]
+cargo_generate_version = ">=0.10.0"
+
+[favorites.fastapi]
+description = "FastAPI + Tailwind + OpenAI GPT-4.1 for AWS Lambda"
+git = "https://github.com/your-username/lambda-templates.git"
+subfolder = "fastapi-lambda"
+
+[favorites.rust-axum]
+description = "Rust Axum + HTMX for AWS Lambda (coming soon)"
+git = "https://github.com/your-username/lambda-templates.git" 
+subfolder = "rust-axum"

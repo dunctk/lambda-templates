@@ -1,0 +1,12 @@
+[template]
+cargo_generate_version = ">=0.10.0"
+
+[placeholders.project_name]
+type = "string"
+prompt = "What is your project name?"
+default = "my-fastapi-mvp"
+
+[placeholders.aws_region]
+type = "string"
+prompt = "AWS region for deployment?"
+default = "us-east-1"
